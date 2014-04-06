@@ -5,6 +5,4 @@ class Product < ActiveRecord::Base
   validates :description, presence: true
   validates :category, presence: true
   validates :price, numericality: true
-
-
 end
