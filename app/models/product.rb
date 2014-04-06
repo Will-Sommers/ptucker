@@ -5,4 +5,8 @@ class Product < ActiveRecord::Base
   validates :description, presence: true
   validates :category, presence: true
   validates :price, numericality: true
+
+  CATEGORIES = ["holloware", "flatware", "boxes", "purses", "jewelry", "novelties"]
+
+
 end
